@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300..700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+}
+.navbar-menu {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.navbar {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.header {
+    height: 300px;
+    background-image: url("img/banner2.jpg");
+}
+.banner {
+    width: 80%;
+    margin: 0 auto;
+
+    padding: 0;
+}
+.link-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link-address {
+    font-size: 20px;
+    font-weight: 600;
+}
+.link-address a {
+    color: #f76401;
+}
+.link-address p {
+    padding: 0 15px;
+    font-size: 15px;
+}
+/* aboutus story */
+.aboutUs-story {
+    padding: 100px 0;
+}
+.aboutUs-story-title {
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+.aboutUs-story-left img {
+    border-radius: 30px;
+    padding: 20px;
+}
+.aboutUs-story-right {
+    font-size: 20px;
+}
+.aboutUs-story-right h2 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.aboutUs-story-right button {
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    background-color: #f76401;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.aboutUs-story-right button:hover {
+    background-color: #fe9b58;
+    transition: 0.5s;
+}
+.we-do {
+    margin-top: 30px;
+}
+.we-do h2 {
+    font-weight: 700;
+    font-size: 25px;
+}
+.we-do-title:first-child {
+    display: flex;
+    align-items: center;
+}
+.we-do-title:not(:first-child) h2 {
+    color: #f76401;
+}
+/*------------------------------------------ skill */
+.skill {
+    background-color: #f7f7f7;
+    padding: 70px 0;
+}
+
+.skill-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill-right-img {
+    width: calc(100% / 2 - 20px);
+}
+.skill-right-img img {
+    border-radius: 10px;
+}
+.skill-right-img:first-child {
+    margin-right: 20px;
+}
+.skill-left h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.progress-item {
+    padding: 10px 0;
+}
+.progress-bar {
+    background-color: #f76401;
+}
+.progress {
+    background-color: #595e6a;
+}
+/* ---------chef-------------- */
+.chefs,
+.plan {
+    padding: 80px;
+    text-align: center;
+}
+.chefs-title {
+    margin-bottom: 30px;
+}
+.chef-img img {
+    border-radius: 10px;
+}
+.chef-name {
+    margin: 20px;
+}
+.chef-name h3 {
+    font-weight: 700;
+}
+.chef-img {
+    position: relative;
+}
+.chef-contact {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.chef-item:hover .chef-contact i {
+    opacity: 1;
+    transition: all 0.5s;
+}
+.chef-contact i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #babfc360;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+}
+.chef-contact i:hover {
+    background-color: #f7f7f7;
+    color: #f76401;
+}
+.chef-contact i:not(:last-child) {
+    margin-right: 10px;
+}

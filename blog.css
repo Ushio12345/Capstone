@@ -1,0 +1,14 @@
+.link-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header {
+    position: relative;
+}
+.banner {
+    position: absolute;
+    top: 50%;
+    width: 90%;
+    margin: 0 auto;
+}
